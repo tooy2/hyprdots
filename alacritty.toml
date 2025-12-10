@@ -1,0 +1,63 @@
+[font]
+size = 12.0 # Or your desired size
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" } # Use the name from fc-list
+# bold = { family = "YourFontName", style = "Bold" } # Optional
+
+
+
+
+[colors]
+transparent_background_colors = false
+
+[colors.primary]
+background = '#1a1a1c'
+foreground = '#dcdcdc'
+
+[colors.cursor]
+cursor = '#dcdcdc'
+text = '#1a1a1c'
+
+[colors.selection]
+background = '#dcdcdc'
+text = '#1a1a1c'
+
+[colors.normal]
+black = '#0f0f11'
+red = '#8c5c5c'
+green = '#6f7a72'
+yellow = '#bcbcbc'
+blue = '#4f4f53'
+magenta = '#6b6b6f'
+cyan = '#94a1a1'
+white = '#dcdcdc'
+
+[colors.bright]
+black = '#1d1d20'
+red = '#a06c6c'
+green = '#809385'
+yellow = '#d0d0d0'
+blue = '#616166'
+magenta = '#7a7a80'
+cyan = '#aebaba'
+white = '#ffffff'
+
+[window]
+opacity = 0.6
+dynamic_padding = false
+decorations = 'full'
+startup_mode = 'Windowed'
+title = 'Alacritty'
+dynamic_title = true
+decorations_theme_variant = 'Dark'
+blur = true
+[window.padding]
+x = 10
+y = 10
+
+[window.class]
+instance = 'Alacritty'
+general = 'Alacritty'
+
+
+[cursor]
+# Set to false to disable completely

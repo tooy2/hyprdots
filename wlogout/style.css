@@ -1,0 +1,63 @@
+window {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+button {
+    border-radius: 14px;
+    padding: 22px;
+    font-size: 18px;
+    color: #f0f0f0;
+    background-color: #0E0E0E;
+    border: 2px solid #161616;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    background-size: 38px;
+}
+
+/* نص الأزرار */
+button label {
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+/* Hover */
+button:hover {
+    background-color: #212121;
+    border-color: #303030;
+}
+
+/* Active */
+button:active {
+    background-color: #020202;
+}
+
+/* ربط كل زر بأيقونته */
+#lock {
+background-image: url("icons/lock.png");
+}
+
+#logout {
+background-image: url("icons/logout.png");
+}
+
+#suspend {
+background-image: url("icons/suspend.png");
+}
+
+#reboot {
+background-image: url("icons/reboot.png");
+}
+
+#shutdown {
+background-image: url("icons/shutdown.png");
+}
+#hibernate {
+	margin: 10px;
+	border-radius: 20px;
+    border:1px solid @primary;
+	background-image: image(url("../../icons/hibernate.png"));
+}
+#hibernate {
+background-image: url("icons/hibernate.png");
+}
+
